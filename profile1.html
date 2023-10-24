@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>your name - portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(174, 186, 196);
+        }
+
+        header {
+            background-color: rgb(10, 10, 10);
+            color: rgb(211, 164, 11);
+            text-align: center;
+            padding: 2rem 0;
+            position: relative; /* Add This */
+        }
+
+        .header-content h1 {
+            font-size: 2.5rem;
+        }
+        /* Add styles for the round profils picture */
+        .profile-picture {
+            width: 100px; /* Adjust the size as needed */
+            height: 100px;
+            border-radius: 80%; /* create a circular shape */
+            object-fit: cover; /* To ensure the image fills the circular area */
+            position: absolute; /* Add this */
+            top: 60px; /* Adjust top position as needed */
+            left: 75px; /* Adjust left position as needed */ 
+        }
+
+        nav {
+            background-color: #a9b5c0;
+            color: #fff;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: none;
+            margin: 0 30px;
+        }
+
+        nav u1 li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .section-content {
+            background-color: white;
+            padding: 2rem;
+            margin: 1rem;
+            border-radius: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .download-button {
+            background-color: #333;
+            color: #fff;
+            padding: 0.5rem 1rem;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 0;
+            background-color: black;
+            color: #ad8514;
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!--Add your profile picture here-->
+            <img src="html.jpg" alt="your profile picture" class="profile-picture">
+            <h1>Arulkumaran.A</h1>
+            <p>********************************************************</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Project">Project</a></li>
+        </ul>
+    </nav>
+
+    <section id="Adout">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p> Hello Everyone! This is Arulkumaran A</p>
+        </div>
+    </section>
+
+    <section id="Education">
+        <div class="section-content">
+            <h2>B.Sc(computer science)</h2>
+            <p>Bharathiar University</p>
+        </div>
+    </section>
+
+    <section id="Skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                <li>Python</li>
+                <li>Artificial Intelligence</li>
+                <li>Machine Learning</li>
+                <li>Deep Learning</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="Project">
+        <div class="section-content">
+            <h2>Project</h2>
+            <ul>
+                <li><a href="#">Project 1</a></li>
+                <li><a href="#">Project 2</a></li>
+                <!--Add more project links here-->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Arulkumaran A</p>
+    </footer>
+</body>
+</html>
